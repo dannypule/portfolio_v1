@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/dannypule/portfolio_v1#readme",
   "devDependencies": {},
+  "engines": {
+    "node": "4.4.x",
+    "npm": "3.8.x"
+  },
   "dependencies": {
     "express": "^4.13.4",
     "gzippo": "^0.2.0",
