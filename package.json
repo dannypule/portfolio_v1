@@ -1,0 +1,25 @@
+{
+  "name": "danny-pule-portfolio-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannypule/portfolio_v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannypule/portfolio_v1/issues"
+  },
+  "homepage": "https://github.com/dannypule/portfolio_v1#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.13.4",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.7.0"
+  }
+}
