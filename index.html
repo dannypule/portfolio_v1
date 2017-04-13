@@ -9,7 +9,6 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="http://exaactly-widget.entymon.eu/main.min.css">
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular/angular-route.min.js"></script>
 
@@ -24,26 +23,6 @@
     <script src="js/controllers/CodepenController.js"></script>
 </head>
 <body class="">
-<div id="exaactly--widget-button"></div>
-<div id="exaactly--widget-popup">
-        <script>
-            (function (window, document) {
-                var exaactly_loader = function () {
-                    var
-                        script = document.createElement("script");
-                        var tag = document.getElementsByTagName("script")[0];
-                    script.src = "http://exaactly-widget.entymon.eu/exaactly.min.js";
-                    script.type = "text/javascript";
-                    tag.parentNode.insertBefore(script, tag);
-                };
-                // Wait until window.onload before downloading any more code.
-                window.addEventListener ? window.addEventListener("load", exaactly_loader, false) : window.attachEvent("onload", exaactly_loader);
-            })(window, document);
-        </script>
-</div>
-
-<br><br><br><br>
-
     <nav class="grey darken-4 z-depth-1">
         <div id="nav" class="nav-wrapper">
         <a href="#" id="nav-menu-button" data-activates="mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
